@@ -1,0 +1,117 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-08-03T06:18:44.119Z",
+    "end": "2019-08-03T06:18:44.150Z",
+    "duration": 31,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "86594049-a660-493b-84f3-fe07a443dd0c",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "064aed07-098a-4a0a-87e0-674aaf238cd6",
+          "title": "大数相加add方法",
+          "fullFile": "h:\\BAT进阶\\自动测试\\exercise\\exercise2\\test\\test.js",
+          "file": "\\test\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "字符串\"42329\"加上字符串\"21532\"等于\"63861\"",
+              "fullTitle": "大数相加add方法 字符串\"42329\"加上字符串\"21532\"等于\"63861\"",
+              "timedOut": false,
+              "duration": 3,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "add('42329', '21532')\n  .should.equal('63861')",
+              "err": {},
+              "uuid": "321ca718-083f-42ba-a46d-fa6ab9a62e4c",
+              "parentUUID": "064aed07-098a-4a0a-87e0-674aaf238cd6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "\"843529812342341234\"加上\"236124361425345435\"等于\"1079654173767686669\"",
+              "fullTitle": "大数相加add方法 \"843529812342341234\"加上\"236124361425345435\"等于\"1079654173767686669\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "add('843529812342341234', '236124361425345435')\n  .should.equal('1079654173767686669')",
+              "err": {},
+              "uuid": "418b881c-ade8-40ea-9c7f-c888d88da557",
+              "parentUUID": "064aed07-098a-4a0a-87e0-674aaf238cd6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "321ca718-083f-42ba-a46d-fa6ab9a62e4c",
+            "418b881c-ade8-40ea-9c7f-c888d88da557"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "useInlineDiffs": false
+      },
+      "version": "4.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}

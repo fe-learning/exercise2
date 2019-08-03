@@ -1,3 +1,2 @@
 --require should
---reporter tap
 --recursive
